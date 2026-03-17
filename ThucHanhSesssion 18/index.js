@@ -41,7 +41,7 @@ btn.addEventListener("click", () => {
     }
 
     let phone = +phoneInput.value;
-    if(phone.length<0 || phone.length > 10){
+    if(!phone){
         alert("So dien thoai nhap khong hop le!");
         return;
     }
